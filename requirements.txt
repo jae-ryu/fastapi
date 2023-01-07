@@ -1,0 +1,16 @@
+boto3[s3]==1.24.88
+environs==9.3.4
+fastapi==0.70.0
+JSON-log-formatter==0.4.0
+jsonschema==4.2.1
+prometheus-fastapi-instrumentator==5.7.1
+psycopg2-binary==2.9.3
+pydantic==1.8.2
+requests==2.26.0
+SQLAlchemy==1.4.41
+uvicorn==0.16.0
+versioneer==0.20
+pyjwt==2.4.0
+fastapi-health==0.4.0
+psycopg[binary]
+fastapi-utils==0.2.1

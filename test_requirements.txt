@@ -1,0 +1,10 @@
+alchemy-mock==0.4.3
+black
+moto[s3]
+pylint
+pytest
+pytest-asyncio
+pytest-cov
+pytest-dotenv
+psycopg[binary]
+psycopg2-binary==2.9.3
