@@ -1,0 +1,2 @@
+include versioneer.py
+include fastapi/_version.py

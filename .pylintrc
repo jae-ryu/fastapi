@@ -1,0 +1,16 @@
+[MASTER]
+init-hook="from pylint.config import find_pylintrc; import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
+ignore=_version.py,versioneer.py,tests,Dockerfile,README.md
+persistent=yes
+fail-under=9.0
+# ignore missing member on these modules
+ignored-modules=pydantic
+
+[MESSAGES CONTROL]
+disable=too-few-public-methods,logging-fstring-interpolation
+
+[REPORTS]
+evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
+output-format=text
+reports=yes
+score=yes
